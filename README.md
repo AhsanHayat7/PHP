@@ -53,7 +53,28 @@ Once PHP is installed, you can start learning the basics of PHP development. Her
 - [PHP Security Guide](https://www.php.net/manual/en/security.php): Learn about PHP security best practices to protect your applications from common vulnerabilities.
 - [PHP Community](https://www.php.net/community.php): Engage with the PHP community through forums, mailing lists, and online communities to get help and share knowledge.
 
-Happy coding with PHP!
-For better Learning PHP language you can see in the folder of learning_php and start from the sequence of 5th file 05_variables.php in PHP:
-AUTHOR : AHSAN HAYAT:
-THANKYOU:
+# Learning PHP Language
+
+For better learning PHP language, you can follow the sequence of files starting from the 5th file `05_variables.php` in the `PHP` REPO.
+
+## Author
+
+**Author:** Ahsan Hayat
+
+## Learning Sequence
+
+1. **File 05_variables.php:** This file likely covers the basics of variables in PHP, including variable declaration, data types, and variable scope.
+
+2. **Next Files:** Continue exploring the subsequent files in the `learning_php` folder to gradually delve deeper into PHP concepts and features. Look for files covering topics such as control structures, functions, arrays, forms handling, and database interactions.
+
+## Additional Resources
+
+- **PHP Documentation:** Refer to the official [PHP Manual](https://www.php.net/manual/en/) for detailed information and examples on PHP functions, syntax, and features.
+- **Online Tutorials and Courses:** Explore online resources such as tutorials, courses, and forums to supplement your learning journey.
+- **Practice:** Practice coding with PHP by building small projects and solving coding challenges to reinforce your understanding.
+
+## Thank You
+
+Thank you for choosing PHP as your programming language of choice. Happy learning and coding!
+
+
