@@ -47,6 +47,53 @@ Once PHP is installed, you can start learning the basics of PHP development. Her
    - Practice coding with PHP by building small projects like a simple website, contact form, or a blog.
    - Participate in online coding challenges and platforms like LeetCode, HackerRank, or Codecademy.
 
+ # RDBMS and SQL with PHP
+
+## Introduction to RDBMS
+
+A Relational Database Management System (RDBMS) is a type of database management system that organizes data into tables with rows and columns, establishing relationships between the tables based on key attributes. RDBMS ensures data integrity, reliability, and efficient management of structured data.
+
+## Using RDBMS with PHP
+
+PHP, being a versatile server-side scripting language, seamlessly integrates with RDBMS systems to interact with databases. Here's how you can use RDBMS and SQL with PHP:
+
+1. **Connecting to the Database:**
+   - Use PHP's built-in functions like `mysqli_connect()` or `PDO` to establish a connection to the RDBMS.
+
+2. **Executing SQL Queries:**
+   - Once connected, use PHP to execute SQL queries such as SELECT, INSERT, UPDATE, DELETE to interact with the database.
+   - PHP's `mysqli_query()` or `PDO::query()` methods can be used to execute SQL queries.
+
+3. **Fetching Results:**
+   - Use PHP to fetch and process the results obtained from SQL queries.
+   - PHP provides functions like `mysqli_fetch_assoc()`, `mysqli_fetch_array()`, or `PDOStatement::fetch()` for fetching data.
+
+4. **Error Handling:**
+   - Implement error handling mechanisms in PHP to handle database-related errors gracefully.
+   - Utilize PHP's error handling functions such as `mysqli_error()` or `PDOException` for error reporting.
+
+## Examples
+
+### Connecting to MySQL Database:
+
+```php
+<?php
+$servername = "localhost";
+$username = "username";
+$password = "password";
+$database = "dbname";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $database);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully";
+?>
+    
+
 ## Additional Resources
 
 - [PHP Frameworks](https://www.php.net/manual/en/faq.frameworks.php): Explore popular PHP frameworks like Laravel, Symfony, and CodeIgniter for building robust web applications.
