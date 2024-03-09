@@ -54,7 +54,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
                $email = $_POST['email'];
                $password = $_POST['password'];
                echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
-               <strong>Success</strong> Your email ' .$email. ' and password ' .$password.'has been Submitted Successfully!.
+               <strong>Success</strong> Your email ' .$email. ' and password ' .$password.' has been Submitted Successfully!.
                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                  <span aria-hidden="true">&times;</span>
                </button>
